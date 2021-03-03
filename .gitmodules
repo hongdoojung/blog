@@ -2,3 +2,7 @@
 	path = theme/hugo-universal-theme
 	url = https://github.com/devcows/hugo-universal-theme
 	branch = master
+[submodule "public"]
+	path = public
+	url = https://github.com/hongdoojung/hongdoojung.github.io.git
+	branch = master
