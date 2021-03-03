@@ -1,0 +1,4 @@
+[submodule "hugo-universal-theme"]
+	path = theme/hugo-universal-theme
+	url = https://github.com/devcows/hugo-universal-theme
+	branch = master
