@@ -2,11 +2,11 @@ baseurl = "https://example.org"
 title = "Universal"
 theme = "hugo-universal-theme"
 themesDir = "themes"
-languageCode = "en-us"
+languageCode = "ko-kr"
 # Site language. Available translations in the theme's `/i18n` directory.
-defaultContentLanguage = "en"
+defaultContentLanguage = "ko"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "devcows"
+disqusShortname = "hongdoojung"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
@@ -46,31 +46,25 @@ paginate = 10
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/hongdoojung"
     pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 2
     name = "Facebook"
-    url = "http://facebook.com"
+    url = "https://www.facebook.com/profile.php?id=100008682991127"
     pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
     weight = 3
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
-
-[[menu.topbar]]
-    weight = 4
     name = "Email"
-    url = "mailto:your@email.com"
+    url = "mailto:jja02059@gmail.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
+    author = "hongdoojung"
+    defaultKeywords = ["hongdoojung"]
     mainSections = ["blog"]
     defaultDescription = "Site template made by devcows using hugo"
 
@@ -87,7 +81,7 @@ paginate = 10
     longitude = "-77.028333"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    style = "turquoise"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
